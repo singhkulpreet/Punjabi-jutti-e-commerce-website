@@ -1,0 +1,289 @@
+*{margin: 0px;}
+
+body{background-color:darkkhaki}
+
+#login{border: 3px solid;height: 20%;width: 30%;position: relative;left: 33%;top: 35%;background-color:rgba(0,0,0,0.4);border-radius: 2%;}
+
+
+
+header{margin-top:3px;
+    background:rgba(0,0,0,0.4);
+    height: 100px;
+    width: 85%;
+    margin-left: 7%;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.7);
+}
+
+header label{font-weight:bolder ;
+             font-size: 30px;
+            font-family: cursive;
+            font-stretch: extra-condensed;
+            letter-spacing: 2px;
+            margin-left: 20%;
+            position: relative;
+            bottom: 35px;}
+
+header #searchbox{height: 30px;
+                border-radius:3px;
+                margin-top: 35px;
+                width: 18%;
+                margin-right: 5px;
+                font-size: 20px;
+                float:right;}
+
+#upper{border: 0px solid;
+        margin-top: 12px;
+        height: 32%;}
+
+
+
+
+
+#upper #slide_box{
+            border: 5px solid;
+            height:100%;
+            width: 30%;
+            position: relative;
+            bottom: 105%;
+            left: 30%;
+            overflow: hidden;
+            display: none;
+}
+
+#image{border: 1px solid;
+    width:295%;
+    animation:slide 4s infinite;
+    position: relative}
+
+@keyframes slide{
+    0%{right: 0px} 
+    50%{right: 130%} 
+    100%{right: 190%}}
+
+#upper #slide_box img{float: left;}
+
+#upper nav{border: 0px solid;
+    position: relative;
+    left:22% ;
+    width:60%;
+    height:12%;
+    
+}
+
+nav ul{}
+
+nav ul li{float: left;
+    text-decoration: none;
+    display: block;
+    border: 5px solid transparent;
+    width:auto;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+    margin-left: 1%;
+    border-right-color: rgba(0,0,0,0.4);
+    padding-right: 1%;
+    
+}
+
+nav ul li a{text-decoration: none;
+    color: black}
+
+#tuban_choice{display: none;
+    position: relative;
+    height: 100%;}
+
+#tuban_choice ul{position: relative;
+    left: 8%}
+
+#tuban_choice ul li{float: none;
+    padding-right: 3px;}
+
+nav ul li:hover{font-size: 26px;
+    background:rgba(0,0,0,0.4);
+    border-radius: 5% }
+
+#kada_choice{display: none;}
+
+#kada_choice ul{position: relative;left: 11.5%}
+
+#kada_choice ul li{float: none;
+                    padding-right: 3px;}
+
+#kanga_choice{display: none;}
+
+#kanga_choice ul{position: relative;
+                    left: 9%}
+
+#kanga_choice ul li{float: none;
+                    padding-right: 3px;}
+
+nav ul li:hover #tuban_choice{display: block;}
+
+nav ul li:hover #kada_choice{display: block;}
+
+nav ul li:hover #kanga_choice{display: block;}
+
+
+#profile_box{border: 1px solid;
+             border-radius: 50%;
+             width: 11%;
+            height: 75%;
+            overflow: hidden;
+            margin-left: 2%;
+    float: right;
+    position: relative;
+            }
+
+#profile_box #prof_img{
+                        width:100%;
+                        height:100%;
+                        border-radius:50%;
+}
+
+#upper #new_img{border: 1px solid;
+             border-radius: 50%;
+             width: 11%;
+            height: 75%;
+            overflow: hidden;
+        position: relative;
+        left: 13.1%;
+        float: right;
+        display: none;
+        background:rgba(0,0,0,0.8);
+            }
+
+
+
+#side_box:hover #new_img{display: block;height: 75%; }
+
+#upper #prof_name{
+             font-weight:bolder;
+             font-size: 30px;
+             font-family: cursive;
+             position:absolute;
+             top: 41%;
+             float: right;
+             left: 91.5%;
+             direction: ltr;
+}
+
+#cart{position: absolute;
+    right: 3%;
+    top: 25%;
+    font-size:25px;
+    font-weight: bolder;
+    font-family: cursive;}
+
+#wish{position: absolute;
+    right: 3%;
+    top: 30%;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: cursive;}
+
+
+
+
+
+
+#blocks{border: 0px solid;width: 70%;height: 210%;position: relative;bottom: 9%;margin-left: 13%}
+
+#turban_block{border: 0px solid;width: 49.5%;height: 25%;position: relative;border-top-left-radius:10px;background: url("turbans_block.jpg");background-size: 100% 100%;background-repeat:no-repeat;float: left}
+
+#kada_block{border: 0px solid;width: 49.5%;height: 25%;float: right;bottom: 25.35%;border-top-right-radius:10px;background: url("kada_back.jpg");background-size: 100% 100%;background-repeat:no-repeat;}
+
+#dastar_block{border: 0px solid;width: 49.5%;height: 25%;float: left;background:url("dastaar_back.jpg");background-size: 100% 100%;background-repeat:no-repeat;margin-top:1% }
+#kirpan_block{border: 0px solid;width: 49.5%;height: 25%;bottom: 25.35%;float: right;background:url("Kirpan_back.jpg");background-size: 100% 100%;background-repeat:no-repeat;margin-top:1%}
+#kachera_block{border: 0px solid;width: 49.5%;height: 25%;border-bottom-left-radius:10px;float: left;background: url("kachera_back.jpg");background-size: 100% 100%;background-repeat:no-repeat;margin-top:1%}
+.kanga_block{border: 0px solid;width: 49.5%;height: 25%;bottom: 25.35%;border-bottom-right-radius:10px;float: right;background: url("kanga_back.jpg");background-size: 100% 100%;background-repeat:no-repeat;margin-top:1%}
+
+
+.tcollection{display: none;border: 0px solid;position: relative;width: 160%;height: 160%;border-radius: 100%;left: 22%;}
+.tcollection #rubia{border: 0px solid;width: 49.95%;height: 50%;float: left;overflow:hidden}
+.tcollection #fullvoille{border: 0px solid;width: 50%;height: 50%;float: right;overflow:hidden}
+.tcollection #mulmul{border: 0px solid;width: 49.95%;height: 50%;float: left;overflow:hidden}
+.tcollection #silk{border: 0px solid;width: 50%;height: 50%;float: right;overflow:hidden}
+.tcollection #madhurani{border: 0px solid;width: 50%;height: 50%;position: relative;left: 25%;background-color:khaki;border-radius: 50%;bottom: 75%;overflow:hidden}
+
+
+
+.tcollection #rubia input{position: relative;font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;border-top-left-radius: 100%}
+.tcollection #fullvoille input{position: relative;font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;border-top-right-radius: 100%}
+.tcollection #mulmul input{position: relative;font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;border-bottom-left-radius: 100%}
+.tcollection #silk input{position: relative;font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;border-bottom-right-radius: 100%}
+.tcollection #madhurani input{position: relative;font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;background-color: orange;border-radius: 100%;border: 2px solid}
+
+
+
+
+.kadacollection{display: none;border: 1px solid;position: relative;width: 160%;height: 160%;bottom: 30%;border-radius: 100%;right: 100.8%}
+
+
+.kadacollection #steel{border: 0px solid;width: 49.95%;height: 50%;float: left;overflow:hidden}
+.kadacollection #brass{border: 0px solid;width: 50%;height: 50%;float: right;overflow:hidden}
+.kadacollection #silver{border: 0px solid;width: 49.95%;height: 50%;float: left;overflow:hidden}
+.kadacollection #gold{border: 0px solid;width: 50%;height: 50%;float: right;overflow:hidden}
+
+.kadacollection #steel input{position: relative;font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;border-top-left-radius: 100%}
+.kadacollection #brass input{position: relative;font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;border-top-right-radius: 100%}
+.kadacollection #silver input{position: relative;font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;border-bottom-left-radius: 100%}
+.kadacollection #gold input{position: relative;font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;border-bottom-right-radius: 100%}
+
+
+
+
+
+.dastarcollection{display: none;border: 0px solid;position: relative;width: 130%;height: 130%;bottom: 30%;border-radius: 160%;left: .4%;overflow: hidden}
+
+.dastarcollection #first{border: 0px solid;width: 100%;height: 50%;}
+.dastarcollection #second{border: 2px solid orange;width: 100%;height: 50%;}
+
+.dastarcollection #first input{ font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;}
+.dastarcollection #second input{font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;}
+
+
+
+
+.kangacollection{display: none;border: 0px solid;position: relative;width: 130%;height: 130%;bottom: 30%;border-radius: 100%;right: 100.8%;overflow: hidden}
+
+.kangacollection #wooden{border: 0px solid;width: 100%;height: 50%;}
+.kangacollection #plastic{border: 2px solid orange;width: 100%;height: 50%;}
+
+.kangacollection #wooden input{ font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;}
+.kangacollection #plastic input{font-family: cursive;font-size: 45px;width: 100%;height: 100%;font-weight: bolder;cursor:pointer;}
+
+
+
+
+#turban_block:hover .tcollection{background-color: orange;display: block}
+#kada_block:hover .kadacollection{background-color: orange;display: block}
+#dastar_block:hover .dastarcollection{background-color: orange;display: block}
+#kirpan_block:hover .kirpancollection{background-color: orange;display: block}
+#kachera_block:hover .kacheracollection{background-color: orange;display: block}
+.kanga_block:hover .kangacollection{background-color: orange;display: block}
+
+
+#kakars{border: 8px solid rgba(0,0,0,0.3);border-style:double; width: 60%;height: 60%;background: url("5kakars.jpg");background-size: 100% 100%;background-repeat:no-repeat;position: relative;bottom: 30%;margin-left: 18%;border-radius: 2%}
+
+
+
+
+
+#last_box{border: 5px solid transparent;border-radius: 15px ; width:1270px ;height: 200px;position: absolute;left: 35px;background-color:rgba(0,0,0,0.3) ;animation: lastt 2s linear infinite;}
+@keyframes lastt{
+  0%{border-bottom-color: red}
+  25%{border-bottom-color: blue}
+  50%{border-bottom-color: black}
+  75%{border-bottom-color: deeppink}
+  100%{border-bottom-color: green}
+}
+
+#last_box #company{border: 0px solid;width:200px;height:200px;position: absolute;left: 85px;font-size:18px;text-align: left;}
+  #last_box #support{border: 0px solid;width:200px;height:200px;position: absolute;left: 385px;font-size:18px;text-align: left;}
+   #last_box #Follow_Us{border: 0px solid;width:250px;height:200px;position: absolute;left: 685px;font-size:18px;text-align: left;}
+    #last_box #address{border: 0px solid;width:200px;height:200px;position: absolute;left: 1035px;font-size:18px;text-align: left;}
